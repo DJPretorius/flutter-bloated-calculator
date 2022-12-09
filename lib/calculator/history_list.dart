@@ -26,12 +26,6 @@ class HistoryList extends StatelessWidget {
           },
         ),
       ),
-      floatingActionButton: FloatingActionButton.small(
-        onPressed: () {
-          Navigator.pop(context);
-        },
-        child: Text("+"),
-      ),
     );
   }
 }

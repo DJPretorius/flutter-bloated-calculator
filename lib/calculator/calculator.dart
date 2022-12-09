@@ -72,12 +72,6 @@ class Calculator extends StatelessWidget {
         ],
       ),
       backgroundColor: Colors.red[200],
-      floatingActionButton: FloatingActionButton(
-        onPressed: () { 
-          Navigator.push(context, MaterialPageRoute(builder: (context) => HistoryList()));
-        },
-        child: Text("+"),
-      ),
     );
   }
 }
