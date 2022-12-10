@@ -33,6 +33,7 @@ class _CalculatorWidgetState extends State<CalculatorWidget> {
         ),
         home: Scaffold(
           bottomNavigationBar: NavigationBar(
+            selectedIndex: currentDestination,
             onDestinationSelected: (int index) => {
               setState(() {
                 currentDestination = index;
