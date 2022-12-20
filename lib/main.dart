@@ -22,7 +22,7 @@ class CalculatorWidget extends StatefulWidget {
 
 class _CalculatorWidgetState extends State<CalculatorWidget> {
 
-  int currentDestination = 3;
+  int currentDestination = 0;
 
   // This widget is the root of your application.
   @override
