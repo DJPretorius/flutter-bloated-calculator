@@ -102,3 +102,6 @@ flutter_icons:
     image_path: "./assets/icon/calculator-icon.png"
     background_color: "#FFFF00FF"
     theme_color: "#FF00FFFF"
+  macos:
+    generate: true
+    image_path: "./assets/icon/calculator-icon.png"
