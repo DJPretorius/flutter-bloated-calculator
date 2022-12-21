@@ -1,16 +1,13 @@
 # calculator
 
-A new Flutter project.
+A very simple but feature bloated calculator built in Flutter targeting Web, Android, iOS and MacOS
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+* Its a calculator that can add and subtract. Its definitely not built in the most efficient way and
+ can also not easily be expanded to cater for more operators.
+* It saves a history of your previous equations every time you pres "=".
+* It loads Albums as a single `Future` and a `Stream` of 10 Albums.
+* It connects you to _Postman_'s echo web socket so that you can talk to yourself.
+* There is a VERY basic widget test file just to see how it works.
+* It is runnable on Web, Android, iOS and MacOS.

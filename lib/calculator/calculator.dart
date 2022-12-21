@@ -15,7 +15,7 @@ class Calculator extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        title: Text("Calculator"),
+        title: const Text("Calculator"),
       ),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
@@ -67,6 +67,12 @@ class Calculator extends StatelessWidget {
               CalculatorButton(symbol: "+"),
               CalculatorButton(symbol: "-"),
               CalculatorButton(symbol: "="),
+            ],
+          ),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: const [
+              CalculatorButton(symbol: "C"),
             ],
           ),
         ],

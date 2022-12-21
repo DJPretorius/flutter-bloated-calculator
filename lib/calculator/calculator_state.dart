@@ -88,8 +88,9 @@ class CalculatorState extends ChangeNotifier {
     notifyListeners();
   }
 
-  void clear() {
+  void clearCurrentEquation() {
     _symbols.clear();
+    result = 0;
     notifyListeners();
   }
 

@@ -11,12 +11,14 @@ class CalculatorButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: EdgeInsets.all(4),
+      margin: const EdgeInsets.all(4),
       child: ElevatedButton(
         onPressed: () {
           if(symbol == "=") {
             Provider.of<CalculatorState>(context, listen: false).calculate();
             Provider.of<CalculatorState>(context, listen: false).saveEquation();
+          } else if(symbol == "C") {
+            Provider.of<CalculatorState>(context, listen: false).clearCurrentEquation();
           } else {
             Provider.of<CalculatorState>(context, listen: false).addOperator(symbol);
           }
